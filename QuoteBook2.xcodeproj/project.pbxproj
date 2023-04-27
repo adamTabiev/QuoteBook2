@@ -12,6 +12,9 @@
 		F132CC2029FA88A700DEAADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F132CC1F29FA88A700DEAADB /* Assets.xcassets */; };
 		F132CC2329FA88A700DEAADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F132CC2229FA88A700DEAADB /* Preview Assets.xcassets */; };
 		F132CC2E29FA8CE200DEAADB /* HumanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC2D29FA8CE200DEAADB /* HumanModel.swift */; };
+		F132CC3029FA915600DEAADB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC2F29FA915600DEAADB /* Data.swift */; };
+		F132CC3229FA91A800DEAADB /* HumanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC3129FA91A800DEAADB /* HumanViewModel.swift */; };
+		F132CC3429FA920800DEAADB /* HumanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132CC3329FA920800DEAADB /* HumanDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F132CC1F29FA88A700DEAADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F132CC2229FA88A700DEAADB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F132CC2D29FA8CE200DEAADB /* HumanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanModel.swift; sourceTree = "<group>"; };
+		F132CC2F29FA915600DEAADB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F132CC3129FA91A800DEAADB /* HumanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewModel.swift; sourceTree = "<group>"; };
+		F132CC3329FA920800DEAADB /* HumanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		F132CC2A29FA89B200DEAADB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F132CC3129FA91A800DEAADB /* HumanViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F132CC1D29FA88A400DEAADB /* ContentView.swift */,
+				F132CC3329FA920800DEAADB /* HumanDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 		F132CC2C29FA89FC00DEAADB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F132CC2F29FA915600DEAADB /* Data.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -173,8 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F132CC1E29FA88A400DEAADB /* ContentView.swift in Sources */,
+				F132CC3429FA920800DEAADB /* HumanDetailView.swift in Sources */,
 				F132CC1C29FA88A400DEAADB /* QuoteBook2App.swift in Sources */,
 				F132CC2E29FA8CE200DEAADB /* HumanModel.swift in Sources */,
+				F132CC3029FA915600DEAADB /* Data.swift in Sources */,
+				F132CC3229FA91A800DEAADB /* HumanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
