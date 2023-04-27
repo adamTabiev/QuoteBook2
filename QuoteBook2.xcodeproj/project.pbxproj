@@ -52,7 +52,10 @@
 			isa = PBXGroup;
 			children = (
 				F132CC1B29FA88A400DEAADB /* QuoteBook2App.swift */,
-				F132CC1D29FA88A400DEAADB /* ContentView.swift */,
+				F132CC2929FA89A200DEAADB /* Models */,
+				F132CC2A29FA89B200DEAADB /* ViewModels */,
+				F132CC2B29FA89F000DEAADB /* Views */,
+				F132CC2C29FA89FC00DEAADB /* Data */,
 				F132CC1F29FA88A700DEAADB /* Assets.xcassets */,
 				F132CC2129FA88A700DEAADB /* Preview Content */,
 			);
@@ -65,6 +68,35 @@
 				F132CC2229FA88A700DEAADB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F132CC2929FA89A200DEAADB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F132CC2A29FA89B200DEAADB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F132CC2B29FA89F000DEAADB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F132CC1D29FA88A400DEAADB /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F132CC2C29FA89FC00DEAADB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
